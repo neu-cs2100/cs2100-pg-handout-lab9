@@ -4,6 +4,15 @@ from q1 import Coordinates
 from collections.abc import Iterable, Iterator
 from typing import TypeVar, Generic
 
+"""
+Please implement the class CoordinatesInOrder below.
+We can iterate over a CoordinatesInOrder object, but the order will be in order
+from "smallest" to "largest".
+You will need to write the documentation.
+
+Don't forget the path above.
+"""
+
 T = TypeVar('T')
 
 class CoordinatesInOrder(Iterable[T]):
