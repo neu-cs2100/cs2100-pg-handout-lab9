@@ -3,6 +3,12 @@ sys.path.append("/path/to/this/directory") # Fill in this path
 from q1 import Coordinates
 from q2 import is_in_order
 
+"""
+Please implement the add_in_order() function below.
+You will need to write the documentation.
+
+Don't forget the path above.
+"""
 
 def add_in_order(element: Coordinates, coordinates: list[Coordinates]) -> None:
     # Add the element to the list of coordinates. Add the element at the index 
