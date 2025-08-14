@@ -2,6 +2,12 @@ import sys
 sys.path.append("/path/to/this/directory") # Fill in this path
 from q1 import Coordinates
 
+"""
+Please implement the is_in_order() function according to the comments.
+You will need to write documentation.
+
+Don't forget the path above.
+"""
 
 def is_in_order(coordinates: list[Coordinates]) -> bool:
     # Return True if the elements in the list are in nondecreasing order, and 
