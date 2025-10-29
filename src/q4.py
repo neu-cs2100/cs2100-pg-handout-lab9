@@ -1,23 +1,17 @@
-import sys
-sys.path.append("/path/to/this/directory") # Fill in this path
-from q1 import Coordinates
 from collections.abc import Iterable, Iterator
-from typing import TypeVar, Generic
+import sys
+
+sys.path.append(".")
+from src.q1 import Coordinates
+
 
 """
 Please implement the class CoordinatesInOrder below.
-We can iterate over a CoordinatesInOrder object, but the order will be in order
-from "smallest" to "largest".
+We can iterate over a CoordinatesInOrder object.
+The order of iteration will be from "smallest" to "largest".
 You will need to write the documentation.
-
-Don't forget the path above.
 """
 
-T = TypeVar('T')
 
-class CoordinatesInOrder(Iterable[T]):
-    # Works like a list of Coordinates, but
-    # when iterated over, goes in order from 
-    # "smallest" to "largest"
-    def __init__(self, coordinates: list[Coordinates]):
-        pass
+class CoordinatesInOrder(Iterable[Coordinates]):
+    pass
